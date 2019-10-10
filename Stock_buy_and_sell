@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+struct stock{
+    int buy;
+    int sell;
+};
+int main()
+ {
+//code
+int t;
+cin>>t;
+while(t--)
+{
+   int n,i=0,c=0;
+   cin>>n;
+   int arr[n];
+   stock s[n/2+1];
+   while(i<n)
+   {
+       cin>>arr[i++];
+   }
+   i=0;
+   while(i<n-1)
+   {
+       while(i<n-1&&arr[i]>=arr[i+1])
+         i++;
+       if(i==n-1)
+       break;
+       s[c].buy=i++;
+       while(i<n&&arr[i-1]<=arr[i])
+         i++;
+       s[c].sell=i-1;
+       c++;
+   }
+   for(i=0;i<c;i++)
+   {
+       cout<<"("<<s[i].buy<<" "<<s[i].sell<<") ";
+   }
+   if(c==0)
+   cout<<"No Profit";
+   cout<<endl;
+}
+return 0;
+}
