@@ -8,5 +8,6 @@ You could also submit your solutions for some problem on codechef or codeforces 
 
 Contributers :
 [@vinmaxx99](https://github.com/vinmaxx99)
-[Prajjawal Banati](https://github.com/PrajjawalBanati)
+[@Prajjawal Banati](https://github.com/PrajjawalBanati)
+
 Happy Hacking!!
