@@ -1,4 +1,4 @@
-#DS-ALGO
+# DS-ALGO
 
 Hacktoberfest Repo for beginners to contribute on data-structures and Algorithms
 
@@ -8,4 +8,5 @@ You could also submit your solutions for some problem on codechef or codeforces 
 
 Contributers :
 [@vinmaxx99](https://github.com/vinmaxx99)
+
 Happy Hacking!!
