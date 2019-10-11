@@ -9,5 +9,5 @@ You could also submit your solutions for some problem on codechef or codeforces 
 Contributers :
 [@vinmaxx99](https://github.com/vinmaxx99)
 [@Prajjawal Banati](https://github.com/PrajjawalBanati)
-
+[@krishremya](https://github.com/krishremya)
 Happy Hacking!!
