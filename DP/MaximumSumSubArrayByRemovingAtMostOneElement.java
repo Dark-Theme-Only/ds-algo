@@ -1,7 +1,7 @@
 package DynamicProgramming;
 
 import java.util.Scanner;
-
+import java.util.*;
 public class MaximumSumSubArrayByRemovingAtMostOneElement {
 
 	public static void main(String[] args) {
