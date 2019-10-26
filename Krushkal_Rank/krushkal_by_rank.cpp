@@ -13,7 +13,7 @@ int root(int x){
     }
     return par[x];
 }
-
+int sn = 5;
 void unio(int a, int b){
     int x=root(a);
     int y=root(b);
