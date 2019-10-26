@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.io.*;
 public class SelectionSort
 {
 
@@ -10,6 +10,7 @@ public class SelectionSort
         System.out.print("Enter value of n: ");
         n = s.nextInt();
         a = new int[n];
+        
         System.out.println("Enter " + n + "values");
         for(i=0; i<n; i++)
         {
