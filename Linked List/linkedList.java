@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 
 /* This program in java is to implement linked list. Linked list is a data structure where eac element is considered as an object. Its just like an array of elements but the memory allocated is not continuous. One head should be there which should link to another node. */
 /*Creating a class node with 2 datas and a consructor. The data members are the node next and the data that should be added. The constructor is to initialize the data and the node value. */
@@ -34,6 +35,7 @@ public class linkedList{
 	/*Deleting the element in the passed position*/
 	void deleteNode(int pos){
 		if(head == null){
+			
 			return ;
 		}
 		node temp = head;
@@ -49,6 +51,7 @@ public class linkedList{
 		temp.next = next;
 	}
 	public void print(){
+		
 		for(node newtemp=this.head;newtemp!=null;newtemp=newtemp.next){
 		System.out.println(newtemp.data);
 		}
