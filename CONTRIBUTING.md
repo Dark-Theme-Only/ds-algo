@@ -17,4 +17,6 @@ Contributers :
 
 [@gargVader](https://github.com/gargVader)
 
+[@Kirti Verma](https://github.com/danglingP0inter)
+
 Happy Hacking!!
