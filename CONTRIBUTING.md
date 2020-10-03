@@ -19,4 +19,6 @@ Contributers :
 
 [@Kirti Verma](https://github.com/danglingP0inter)
 
+[@Nisha Kumari](https://github.com/coder30-lab)
+
 Happy Hacking!!
