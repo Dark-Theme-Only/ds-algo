@@ -1,10 +1,12 @@
-#include<bits/stdc++.h> 
- 
-void merge(int arr[], int l, int m, int r) // Function to merge subarrays
+#include<stdlib.h> 
+#include<stdio.h> 
+
+void merge(int arr[], int l, int m, int r) 
 { 
 	int i, j, k; 
 	int n1 = m - l + 1; 
 	int n2 = r - m; 
+
 	int L[n1], R[n2]; 
 
 	for (i = 0; i < n1; i++) 
@@ -30,15 +32,14 @@ void merge(int arr[], int l, int m, int r) // Function to merge subarrays
 		k++; 
 	} 
 
-	while (i < n1)    //Copying Remaining Elements of L
+	while (i < n1) 
 	{ 
 		arr[k] = L[i]; 
 		i++; 
 		k++; 
 	} 
 
-
-	while (j < n2)      //Copying Remaining Elements of R
+	while (j < n2) 
 	{ 
 		arr[k] = R[j]; 
 		j++; 
@@ -50,7 +51,6 @@ void mergeSort(int arr[], int l, int r)
 { 
 	if (l < r) 
 	{ 
-
 		int m = l+(r-l)/2; 
 
 		mergeSort(arr, l, m); 
@@ -60,15 +60,25 @@ void mergeSort(int arr[], int l, int r)
 	} 
 } 
 
+void printArray(int A[], int size) 
+{ 
+	int i; 
+	for (i=0; i < size; i++) 
+		printf("%d ", A[i]); 
+	printf("\n"); 
+} 
 
 int main() 
 { 
-	int arr[] = {2, 9, 3, 15, 1, 7}; 
-	int n = sizeof(arr)/sizeof(arr[0]); 
+	int arr[] = {12, 11, 13, 5, 6, 7}; 
+	int arr_size = sizeof(arr)/sizeof(arr[0]); 
 
-	mergeSort(arr, 0, n - 1); 
-  
-  for(int i=0;i<n;i++)
-  cout<<arr[i]<<endl;
+	printf("Given array is \n"); 
+	printArray(arr, arr_size); 
+
+	mergeSort(arr, 0, arr_size - 1); 
+
+	printf("\nSorted array is \n"); 
+	printArray(arr, arr_size); 
 	return 0; 
-} 
+}
