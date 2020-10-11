@@ -1,0 +1,23 @@
+#Solution to https://codeforces.com/problemset/problem/59/A
+using System;
+using System.Linq;					
+public class Program
+{
+	public static void Main()
+	{
+		string word = Console.ReadLine();
+		int lengthOfWord = word.Count();
+		int upperCount = 0;
+		foreach(char c in word){
+			if(Char.IsUpper(c)){
+				upperCount+=1;
+			}
+		}
+		if((upperCount > lengthOfWord-upperCount)){
+			Console.WriteLine(word.ToUpper());
+		}else{
+			Console.WriteLine(word.ToLower());
+		}
+		
+	}
+}
