@@ -21,4 +21,6 @@ Contributers :
 
 [@Nisha Kumari](https://github.com/coder30-lab)
 
+[@pratikthorat](https://github.com/pratikthorat)
+
 Happy Hacking!!
