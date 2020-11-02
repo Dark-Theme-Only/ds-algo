@@ -34,7 +34,7 @@ class queue
     void enqueue(int x,int s)
     {
         if(size==s)
-        System.out.println("queue full");
+        System.out.println("queue is full");
         else
         {
           node nptr=new node(x,null);
@@ -54,7 +54,7 @@ class queue
     void dequeue()
     {
         if(start==null)
-        System.out.println("queue empty");
+        System.out.println("queue is empty");
         else
         {
             start = start.getlink();
